@@ -9,8 +9,8 @@ int main()
 	cin>>s;
 	cout<<"Podaj czas: "<<endl;
 	cin>>t;
-	t/=60;
-	v = s/t;
+//	t/=60;
+	v = 60*s/t;
 	if(v>90){
 	cout<<"Predkosc: "<<v<<" km/h, czyli za szybko!"<<endl;
 	} else if(v==90){
