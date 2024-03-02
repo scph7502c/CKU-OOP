@@ -14,7 +14,7 @@ int main()
 	cout<<"Podaj srednia ocen;"<<endl;
 	cin>>so;
 	if(f>94 && so >= 4.0) {
-		pkt = pkt + 20;
+		pkt+=20;
 		cout<<"Klasa zdobyla "<<pkt<<" punktow";
 	} else {
 		cout<<"Klasa zdobyla "<<pkt<<" punktow";
