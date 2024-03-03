@@ -13,7 +13,7 @@ int main() {
 	for(startValue; startValue >= endValue; startValue--) {
 		
 		cout<<startValue<<endl;
-	};
+	}; main();
 	
 } else {
 	cout<<"\nWartoœæ pocz¹tkowa musi byæ wiêksza od koñcowej";
