@@ -14,7 +14,10 @@ int main()
         cout << "\nWprowadz wplate: ";
         cin >> wplata;
         suma_wplat = suma_wplat + wplata;
-        cout << "\nBiezaca suma: " << suma_wplat;
+        if (suma_wplat <= kwota)
+        {
+            cout << "\nBiezaca suma: " << suma_wplat;
+        }
     }
     cout << "\nSuma wplat wynosi: " << suma_wplat << " zl";
     cout << "\nNadplata wynosi: " << suma_wplat - kwota << " zl";
