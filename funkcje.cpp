@@ -3,14 +3,15 @@
 using namespace std;
 
 int x, y;
-int SumaKwadrat()
+int SumaKwadrat(int a, int b)
 {
-    return x * x + y * y;
+    return a*a + b*b;
 }
 
 int main()
 {
+    cout<<"Wprowadz skladniki: \n";
     cin >> x >> y;
-    cout << SumaKwadrat();
+    cout << SumaKwadrat(x,y)<<endl;
     return 0;
 }
